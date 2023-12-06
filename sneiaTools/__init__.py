@@ -1,8 +1,4 @@
 from .metrics import Metrics
+from .biomedical import Biomedical
 
-metrics = Metrics()
-
-mae = metrics.mae
-mse = metrics.mse
-rmse = metrics.rmse
-re = metrics.re
+__all__ = ['Metrics', 'Biomedical']
